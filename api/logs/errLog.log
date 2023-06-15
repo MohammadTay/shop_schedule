@@ -1,0 +1,38 @@
+20230528	23:53:39	8462e1ae-6793-4656-9e5b-009cf9ef6c50	Error:not allowed by CoRs	OPTIONS	/	https://www.google.com
+20230528	23:53:39	301f8949-0950-4163-8d1b-25775ed98a3b	Error:not allowed by CoRs	GET	/	https://www.google.com
+20230530	17:20:27	757f911b-0d17-42ac-8dda-3f22e7e080d6	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	17:27:27	e069bb03-dfe5-438d-820f-c3262dd89c37	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	17:29:17	a6468e06-bb72-4303-9afa-07f191653bd7	SyntaxError:Unexpected token } in JSON at position 18	POST	/notes	undefined
+20230530	17:29:31	d40f0a5a-e3b9-4c60-9aa9-89f398af844f	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	17:34:31	598eaca2-de89-4bdf-bdfb-30961dd43e49	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	17:35:42	c6416cb9-a168-4748-bbe5-989a0977ab40	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "kalim" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	17:35:50	8ed85187-bd5d-43d6-b47d-dbb350bd54b2	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "dave" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	17:36:40	1cf996b9-9c95-453e-8560-39df99ad9f5e	SyntaxError:Unexpected token 
+ in JSON at position 14	POST	/notes	undefined
+20230530	17:37:12	91eb5b6e-e409-4076-b9ca-21e34dbff072	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "{ id: '647609acdc818e99241d8408' }" (type Object) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	17:39:35	ffa6c1af-2425-49e7-b3aa-2af28e47f351	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "{ id: '647609acdc818e99241d8408', user: 'dave' }" (type Object) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	17:46:16	294399a4-984a-4d43-88e2-cfe97bf3397e	SyntaxError:Unexpected token o in JSON at position 11	POST	/notes	undefined
+20230530	17:46:24	ec48fbda-8ce9-49f6-9022-66f8c884e67a	SyntaxError:Unexpected number in JSON at position 22	POST	/notes	undefined
+20230530	17:46:31	c8b9efbd-db33-4f94-8eed-5f0e08fb4caf	SyntaxError:Unexpected token o in JSON at position 12	POST	/notes	undefined
+20230530	17:46:41	32ed7f9f-90e5-4c23-a46f-3016a445c872	SyntaxError:Unexpected token } in JSON at position 38	POST	/notes	undefined
+20230530	17:47:09	f395d57f-3905-41fd-95a3-a5ebd3084225	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	18:04:51	49833fac-25c0-45c0-a824-ff797b8ba8fb	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	18:05:49	aca33982-8e7e-412c-bf23-79c1e5dc0194	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	18:34:33	e11af55a-d506-49bf-9015-d42a998f09af	SyntaxError:Unexpected string in JSON at position 45	POST	/notes	undefined
+20230530	18:40:50	b9c505cd-8aaa-4b6c-aa93-1a21cd61da63	SyntaxError:Unexpected token } in JSON at position 38	POST	/notes	undefined
+20230530	18:45:41	ea8f7697-fd8a-48d7-b652-b97b54c14c47	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "8378473" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230530	18:45:50	d072565c-4834-42e4-8262-4132facb6056	ValidationError:Note validation failed: user: Cast to ObjectId failed for value "hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230531	00:53:11	9862b422-9414-4f7f-8328-2b0549eb467a	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	00:53:57	4927bd2b-ddd8-4c25-95d5-b3c9bc9085e0	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	00:54:43	ecc9a586-5fc8-4df3-9857-71218d95ba00	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	00:55:29	19b78450-bc9e-4931-91d4-88bf98147f09	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	00:56:15	2da098bf-d210-4294-bc92-1f27cbff879b	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	00:57:01	a4627f83-b63e-41f6-b8c3-4f4ba9169950	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	00:57:47	539426ae-60b7-48a7-b97a-a95d8f894a9e	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	00:58:33	15a34b58-b394-4fc7-8e02-d9d9375361b0	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	00:59:19	27d17702-6890-4cf3-84ee-50fdbad4abdd	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	01:00:05	8eb61356-8a44-442c-ab94-e52a2be9cdeb	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	01:00:51	67169b4d-27d5-41f4-be6b-b8c26c5739bf	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	01:01:37	7a764250-9a8a-43bc-b455-a7a7aea77d85	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	01:02:23	8b9d85c9-57bd-43ff-a5a9-61a89653523b	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
+20230531	01:03:09	1575d12d-af56-46c3-9e6c-ebfd96b33f95	MongoServerSelectionError:getaddrinfo EAI_AGAIN ac-shmir29-shard-00-02.vsdrfmk.mongodb.net	GET	/notes	http://localhost:3000
